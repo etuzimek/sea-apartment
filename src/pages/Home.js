@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import "../App.css";
+import Hero from "../components/Hero";
+// import Cards from "../Cards";
+// import Footer from "../Footer";
+// import CardsMobile from "../CardsMobile";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <Hero />
+      {/* <Cards /> */}
+      {/* <CardsMobile /> */}
+      {/* <Footer /> */}
+    </>
+  );
 }
 
-export default Home
+export default Home;
