@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Hero from "../components/Hero";
 import Cards from "../components/Cards";
-// import Footer from "../Footer";
+import Footer from "../components/Footer";
 // import CardsMobile from "../CardsMobile";
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
       <Hero />
       <Cards />
       {/* <CardsMobile /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
