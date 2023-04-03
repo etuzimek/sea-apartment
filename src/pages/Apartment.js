@@ -5,7 +5,7 @@ export default function Apartment() {
   return (
     <>
       <div className="apartment">
-        <h1>GALERIA ZDJĘĆ</h1>
+        <h1>APARTAMENT</h1>
         <div className="apartment-wrapper">
           <img src="../images/img1.jpg" alt="apartament" />
           <div className="box" id="obrazek1">
