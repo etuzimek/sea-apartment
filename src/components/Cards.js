@@ -6,22 +6,22 @@ function Cards() {
     <>
       <div className="mobile">
         <div className="mobile-container">
-          <a href="/apartament">
+          <a href="/apartment">
             <img src="/images/img3.jpg" alt="apartament"></img>
           </a>
         </div>
         <div className="mobile-container">
-          <a href="/plaza">
+          <a href="/beach">
             <img src="/images/img-1.jpg" alt="plaza"></img>
           </a>
         </div>
         <div className="mobile-container">
-          <a href="/atrakcje">
+          <a href="/atractions">
             <img src="/images/img-3.jpg" alt="atrakcje"></img>
           </a>
         </div>
         <div className="mobile-container">
-          <a href="/galeria">
+          <a href="/gallery">
             <img src="/images/img4.jpg" alt="galeria"></img>
           </a>
         </div>
