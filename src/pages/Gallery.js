@@ -9,14 +9,7 @@ export default function Gallery() {
           className="gallery-input"
           type="radio"
           name="Photos"
-          id="check1"
-          checked
-        ></input>
-        <input
-          className="gallery-input"
-          type="radio"
-          name="Photos"
-          id="check2"
+          id="check4"
           checked
         ></input>
         <input
@@ -30,7 +23,14 @@ export default function Gallery() {
           className="gallery-input"
           type="radio"
           name="Photos"
-          id="check4"
+          id="check2"
+          checked
+        ></input>
+        <input
+          className="gallery-input"
+          type="radio"
+          name="Photos"
+          id="check1"
           checked
         ></input>
 

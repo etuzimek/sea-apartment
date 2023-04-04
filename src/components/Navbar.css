@@ -9,7 +9,7 @@
   top: 0;
   z-index: 999;
   text-transform: uppercase;
-  padding-left: 300px;
+  padding-left: 250px;
 }
 
 .navbar-container {
@@ -19,10 +19,17 @@
   height: 80px;
   max-width: 1500px;
 }
+.social-logo {
+  font-size: 1rem;
+  color: #a98361;
+  cursor: pointer;
+  text-decoration: none;
+  display: none;
+}
 
 .fa-typo3 {
   margin-left: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 
 .nav-menu {
@@ -50,7 +57,7 @@
 }
 
 .fa-bars {
-  color: #000;
+  color: #a98361;
 }
 
 .nav-links-mobile {
@@ -96,9 +103,30 @@
   color: blue;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 769px) and (max-width: 1223px) {
+  .navbar {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .NavbarItems {
     position: relative;
+  }
+  .navbar {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-logo {
+    display: block;
   }
 
   .nav-menu {
@@ -147,7 +175,7 @@
   }
 
   .fa-times {
-    color: #000;
+    color: #a98361;
     font-size: 2rem;
   }
 
