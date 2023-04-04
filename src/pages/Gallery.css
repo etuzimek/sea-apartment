@@ -118,7 +118,7 @@ label:hover {
   position: relative;
   transition: 0.5s;
 }
-#check2:checked ~ .container .photo-gallery .family {
+#check2:checked ~ .container .photo-gallery .apartament {
   transform: scale(1);
   opacity: 1;
   position: relative;
@@ -135,7 +135,7 @@ label:hover {
   opacity: 1;
   position: relative;
 }
-#check3:checked ~ .container .photo-gallery .family,
+#check3:checked ~ .container .photo-gallery .apartament,
 #check3:checked ~ .container .photo-gallery .place {
   opacity: 0;
   transform: scale(0);
@@ -147,7 +147,7 @@ label:hover {
   opacity: 1;
   position: relative;
 }
-#check4:checked ~ .container .photo-gallery .family,
+#check4:checked ~ .container .photo-gallery .apartament,
 #check4:checked ~ .container .photo-gallery .child {
   opacity: 0;
   transform: scale(0);

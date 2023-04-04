@@ -7,10 +7,9 @@
 .contact-container {
   background-color: #242424;
   height: calc(100vh - 80px);
-  padding: 4rem 0 2rem 0;
+  padding: 8rem 0 2rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .contact-form input,

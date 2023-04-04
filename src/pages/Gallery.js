@@ -47,8 +47,8 @@ export default function Gallery() {
             <div className="pic place">
               <img src="../images/img1.jpg" alt="all"></img>
             </div>
-            <div className="pic family">
-              <img src="../images/img2.jpg" alt="all"></img>
+            <div className="pic apartament">
+              <img src="../images/apartament1.jpg" alt="all"></img>
             </div>
             <div className="pic child">
               <img src="../images/img3.jpg" alt="all"></img>
@@ -56,8 +56,8 @@ export default function Gallery() {
             <div className="pic place">
               <img src="../images/img1.jpg" alt="all"></img>
             </div>
-            <div className="pic family">
-              <img src="../images/img2.jpg" alt="all"></img>
+            <div className="pic apartament">
+              <img src="../images/apartament2.jpg" alt="all"></img>
             </div>
             <div className="pic child">
               <img src="../images/img3.jpg" alt="all"></img>
@@ -65,8 +65,8 @@ export default function Gallery() {
             <div className="pic place">
               <img src="../images/img1.jpg" alt="all"></img>
             </div>
-            <div className="pic family">
-              <img src="../images/img2.jpg" alt="all"></img>
+            <div className="pic apartament">
+              <img src="../images/apartament3.jpg" alt="all"></img>
             </div>
             <div className="pic child">
               <img src="../images/img3.jpg" alt="all"></img>
@@ -74,8 +74,8 @@ export default function Gallery() {
             <div className="pic place">
               <img src="../images/img1.jpg" alt="all"></img>
             </div>
-            <div className="pic family">
-              <img src="../images/img2.jpg" alt="all"></img>
+            <div className="pic apartament">
+              <img src="../images/apartament4.jpg" alt="all"></img>
             </div>
             <div className="pic child">
               <img src="../images/img3.jpg" alt="all"></img>
