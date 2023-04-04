@@ -1,0 +1,129 @@
+.beach {
+    background-color: #242424;
+    height: 100%;
+  }
+  .beach-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 30px 0 30px;
+    color: #a98361;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+  }
+  
+  .beach-wrapper img {
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+    /* filter: grayscale(100%); */
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .box img {
+    background: #fff;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .box:target {
+    display: table;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* @media only screen and (max-width: 768px) {
+    .beach > h1 {
+      font-size: 1.7rem;
+    }
+    .beach-wrapper img {
+      width: 100vw;
+      height: 300px;
+      object-fit: cover;
+      filter: none;
+      padding: 10px 0;
+    }
+    .beach-wrapper img:hover {
+      transform: none;
+    }
+  } */
+  
+  @media screen and (min-width: 1022px) {
+    .beach-wrapper img {
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+      filter: grayscale(100%);
+      transition: 1s;
+      cursor: pointer;
+    }
+  
+    .beach-wrapper img:hover {
+      filter: grayscale(0);
+      transform: scale(1.3);
+    }
+  }
+  
+  @media screen and (min-width: 732px) and (max-width: 1021px) {
+    .beach-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  
+    .beach-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  @media screen and (min-width: 582px) and (max-width: 731px) {
+    .beach-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  
+    .beach-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  @media screen and (min-width: 438px) and (max-width: 581px) {
+    .beach-wrapper img {
+      width: 100vh;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+  
+  @media screen and (max-width: 437px) {
+    .beach-wrapper img {
+      width: 100vh;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  

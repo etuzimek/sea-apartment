@@ -12,7 +12,7 @@ function Cards() {
         </div>
         <div className="mobile-container" data-aos="fade-left">
           <a href="/beach">
-            <img src="/images/img-1.jpg" alt="plaza"></img>
+            <img src="/images/beach1.jpg" alt="plaza"></img>
           </a>
         </div>
         <div className="mobile-container" data-aos="fade-up">

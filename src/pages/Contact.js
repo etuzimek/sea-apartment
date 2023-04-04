@@ -28,7 +28,7 @@ function Contact() {
               <input type="submit" value="Send Message" />
             </li>
             <li>
-              <input type="reset" value="Clear Form" class="alt" />
+              <input type="reset" value="Clear Form" />
             </li>
           </ul>
         </div>

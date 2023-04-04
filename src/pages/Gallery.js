@@ -10,37 +10,37 @@ export default function Gallery() {
           type="radio"
           name="Photos"
           id="check4"
-          checked
+          defaultChecked
         ></input>
         <input
           className="gallery-input"
           type="radio"
           name="Photos"
           id="check3"
-          checked
+          defaultChecked
         ></input>
         <input
           className="gallery-input"
           type="radio"
           name="Photos"
           id="check2"
-          checked
+          defaultChecked
         ></input>
         <input
           className="gallery-input"
           type="radio"
           name="Photos"
           id="check1"
-          checked
+          defaultChecked
         ></input>
 
         <div className="container">
           <h1>GALERIA ZDJEC</h1>
           <div className="top-content">
-            <label for="check1">All photos</label>
-            <label for="check2">Apartament</label>
-            <label for="check3">Osiedle</label>
-            <label for="check4">Atrakcje</label>
+            <label htmlFor="check1">All photos</label>
+            <label htmlFor="check2">Apartament</label>
+            <label htmlFor="check3">Okolica</label>
+            <label htmlFor="check4">Atrakcje</label>
           </div>
 
           <div className="photo-gallery">
