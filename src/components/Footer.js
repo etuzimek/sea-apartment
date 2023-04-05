@@ -24,7 +24,7 @@ function Footer() {
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
-        <div className="footer-link-wrapper">
+        {/* <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Filmiki</h2>
             <Link to="/">Submit Video</Link>
@@ -39,7 +39,7 @@ function Footer() {
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <section>
         <div>
