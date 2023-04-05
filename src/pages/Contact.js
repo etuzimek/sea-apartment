@@ -16,6 +16,7 @@ function Contact() {
             name="_next"
             value="https://sea-apartament.com/thankyou.html"
           />
+          <input type="hidden" name="_captcha" value="false"></input>
           <input type="text" name="name" placeholder="Imie" required />
           <input type="text" name="email" placeholder="Email" required />
         </div>
