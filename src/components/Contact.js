@@ -4,15 +4,24 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <h1 className="contact" >Kontakt</h1>
-      <form className="contact-form" method="POST">
+      <h1 className="contact">Kontakt</h1>
+      <form
+        className="contact-form"
+        action="https://formsubmit.co/edwardtuzimek@gmail.com"
+        method="POST"
+      >
         <div className="contact-details">
+          <input
+            type="hidden"
+            name="_next"
+            value="https://sea-apartament.com/thankyou.html"
+          />
           <input type="text" name="name" placeholder="Imie" required />
           <input type="text" name="email" placeholder="Email" required />
         </div>
-        <div className="contact-subject">
+        {/* <div className="contact-subject">
           <input type="text" name="subject" placeholder="Temat" />
-        </div>
+        </div> */}
         <div>
           <textarea
             rows="5"
@@ -28,7 +37,7 @@ function Contact() {
               <input type="submit" value="Send Message" />
             </li>
             <li>
-              <input type="reset" value="Clear Form"/>
+              <input type="reset" value="Clear Form" />
             </li>
           </ul>
         </div>
