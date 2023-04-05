@@ -10,6 +10,7 @@ function Hero() {
         <br />
         Apartament
       </p>
+      <span>Zamieszkaj w nowoczesnym mieszkaniu blisko morza</span>
     </div>
   );
 }

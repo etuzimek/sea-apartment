@@ -1,0 +1,18 @@
+.attractions {
+    background-color: #242424;
+}
+.attractions-content1 {
+    background-color: #a98361;
+    color: #fff;
+    padding-top: 20px;
+}
+.attractions-content2 {
+    background-color: #242424;
+    color: #fff;
+    padding-top: 20px;
+}
+.attractions img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}

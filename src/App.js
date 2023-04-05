@@ -8,7 +8,7 @@ import Gallery from "./pages/Gallery";
 import Beach from "./pages/Beach";
 import Rules from "./pages/Rules";
 import Contact from "./pages/Contact";
-import Atractions from "./pages/Atractions";
+import Attractions from "./pages/Attractions";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/apartment" element={<Apartment />} />
           <Route path="/beach" element={<Beach />} />
-          <Route path="/atractions" element={<Atractions />} />
+          <Route path="/attractions" element={<Attractions />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/rules" element={<Rules />} />
           <Route path="/contact" element={<Contact />} />

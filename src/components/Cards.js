@@ -16,7 +16,7 @@ function Cards() {
           </a>
         </div>
         <div className="mobile-container" >
-          <a href="/atractions">
+          <a href="/attractions">
             <img src="/images/img-3.jpg" alt="atrakcje"></img>
           </a>
         </div>
