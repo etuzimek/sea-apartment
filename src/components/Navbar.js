@@ -80,7 +80,7 @@ function Navbar() {
               >
                 <i className="fab fa-facebook-f" />
               </Link>
-              <Link
+              {/* <Link
                 className="social-icon-link instagram"
                 to="/"
                 target="_blank"
@@ -104,7 +104,7 @@ function Navbar() {
                 aria-label="LinkedIn"
               >
                 <i className="fab fa-linkedin" />
-              </Link>
+              </Link> */}
             </div>
           </ul>
         </div>

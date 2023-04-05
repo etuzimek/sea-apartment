@@ -23,18 +23,23 @@ textarea {
   outline: none;
 }
 .contact-details input {
-    width: 48%;
-  }
-  .contact-details input:last-child {
-    width: 49%;
-    margin: 5px 0;
-  }
-  .contact-subject input,
+  width: 48%;
+}
+.contact-details input:last-child {
+  width: 49%;
+  margin: 5px 0;
+}
+.contact-subject input,
 textarea {
   width: 98%;
 }
 .contact-confirm {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+@media screen and (min-width: 500px) {
+  .contact-confirm:last-child input {
+    margin-right: 10px;
   }
+};

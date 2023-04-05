@@ -10,18 +10,18 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>O Nas</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Terms of Service</Link>
+            <h2>Pomoc</h2>
+            <Link to="/">Jak dojechac</Link>
+            <Link to="/">Na plaze</Link>
+            <Link to="/">Molo</Link>
+            <Link to="/">Osiedle</Link>
           </div>
           <div className="footer-link-items">
             <h2>Kontakt</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/">Rezerwacja</Link>
+            <Link to="/">Pytania</Link>
+            <Link to="/">Regulamin</Link>
+            <Link to="/">Kontakt</Link>
           </div>
         </div>
         {/* <div className="footer-link-wrapper">

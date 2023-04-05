@@ -55,6 +55,9 @@
 label:hover {
   color: #000;
 }
+.top-content label:hover {
+  color: #fff;
+}
 .photo-gallery {
   width: 90%;
   margin: auto;
@@ -154,10 +157,67 @@ label:hover {
   position: absolute;
   transition: 0s;
 }
+@media screen and (min-width: 1001px) {
+  .top-content {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+  }
+  .top-content label {
+    color: #242424;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pic img {
+    width: 320px;
+    max-height: 300px;
+    padding: 30px;
+  }
+}
 
-@media screen and (min-width: 582px) and (max-width: 731px) {
+@media screen and (min-width: 726px) and (max-width: 1000px) {
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .top-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .top-content label {
+    color: #242424;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 582px) and (max-width: 725px) {
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .top-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .top-content label {
+    color: #242424;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 438px) and (max-width: 581px) {
+  .pic {
+    height: auto;
+  }
   .gallery {
     height: 100%;
   }

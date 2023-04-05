@@ -90,17 +90,20 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   width: 240px;
 }
+.social-icons a {
+  padding: 0 10px;
+}
 
 .social-icon-link:hover:first-child {
-  color: red;
+  color: #c00;
 }
 
 .social-icon-link:hover:nth-child(2) {
-  color: blue;
+  color: #385898;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1223px) {
